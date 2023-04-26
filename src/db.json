@@ -1,0 +1,31 @@
+{
+  "people": [
+    {
+      "id": "0",
+      "firstname": "Maks",
+      "lastname": "Kobzar",
+      "start_date": "04.26.2023",
+      "role": "employee",
+      "email": "nimbus2219@gmail.com",
+      "password": "269853"
+    },
+    {
+      "id": "1",
+      "firstname": "Anna",
+      "lastname": "Ivasenko",
+      "start_date": "04.26.2023",
+      "role": "manager",
+      "email": "cutiecite99@gmail.com",
+      "password": "456546"
+    },
+    {
+      "firstname": "Maksym",
+      "lastname": "Franko",
+      "start_date": "04.26.2023",
+      "role": "employee",
+      "email": "nimbus@gmail.com",
+      "password": "269853",
+      "id": "02x_HIr"
+    }
+  ]
+}
