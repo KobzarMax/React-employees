@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kobzarmax.github.io/react-employees/",
   "name": "employees",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +10,9 @@
     "server": "npx json-server --watch ./server/db.json",
     "start": "concurrently \"yarn dev\" \"yarn server\"",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -19,6 +22,7 @@
     "@react-oauth/google": "^0.10.0",
     "axios": "^1.3.6",
     "concurrently": "^8.0.1",
+    "gh-pages": "^5.0.0",
     "json-server": "^0.17.3",
     "jwt-decode": "^3.1.2",
     "localforage": "^1.10.0",
